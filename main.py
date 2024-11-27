@@ -2,7 +2,7 @@ from pkg.plugin.context import register, handler, llm_func, BasePlugin, APIHost,
 from pkg.plugin.events import *  # 导入事件类
 from pkg.platform.types import *
 import re
-from plugins.HelloPlugin.get_image import download_image
+from plugins.AIDrawing.get_image import download_image
 
 
 # 注册插件
