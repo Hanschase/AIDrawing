@@ -11,7 +11,7 @@ class Fct(BasePlugin):
     def __init__(self, host: APIHost):
         pass
 
-    @llm_func(name="test")
+    @llm_func(name="Drawer")
     async def _(self,query, keywords: str)->str:
         """Call this function to draw something before you answer any questions.
         - Expand the user's description into a more elaborate and detailed English prompt suitable for AI image generation, including adding details like camera aperture and specific scene descriptions, and then input the enhanced description.
