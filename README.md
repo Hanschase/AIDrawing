@@ -33,10 +33,15 @@
 配置完成 [LangBot](https://github.com/RockChinQ/LangBot) 主程序后使用管理员账号向机器人发送命令即可安装：
 
 ```
-!plugin get <你的插件发布仓库地址>
+!plugin get https://github.com/Hanschase/AIDrawing
 ```
 或查看详细的[插件安装说明](https://docs.langbot.app/plugin/plugin-intro.html#%E6%8F%92%E4%BB%B6%E7%94%A8%E6%B3%95)
 
 ## 使用
-
+对Bot发送画图请求即可，如：“画一只猫“，支持后续语句优化
+![ffb8662796326221aeffeaf66ff71e85](https://github.com/user-attachments/assets/42f4dc8a-37e9-48b2-b698-fd1a08787890)
+![8d6b7110d3bd26d77001ae584a297cea_720](https://github.com/user-attachments/assets/e98170f3-31f9-4738-a01a-6bcced255b71)
+## 一些碎碎念
+算是用来练手function calling函数的使用，做到了GPT可以生成图像并且根据要求修改的功能<br>
+按理来说能使用function calling能力的大模型应该都能使用（大概？我没测试过）
 <!-- 插件开发者自行填写插件使用说明 -->
